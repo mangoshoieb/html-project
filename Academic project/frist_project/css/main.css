@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  font-family: "Cairo", sans-serif;
+  background-color: rgb(241, 241, 175);
+  margin: 10px auto;
+  width: 1270px;
+  height: 600px;
+  border-radius: 20px;
+}
+/* start main style */
+.container h1 {
+  text-align: center;
+  color: #5d5b5b;
+  margin: 10px;
+}
+.para p {
+  font-size: 20px;
+  color: #5d5b5b;
+  margin: 40px;
+}
+.links {
+  width: 700px;
+  margin: 60px auto;
+  height: 200px;
+  background-color: rgb(219 219 119);
+  border-radius: 20px;
+  box-shadow: 0 0 16px 4px gray;
+  text-align: center;
+}
+.links .link {
+  background-color: rgb(233 149 62);
+  display: inline-block;
+  width: 130px;
+  height: 45px;
+  border-radius: 20px;
+  color: white;
+  margin: 75px 35px;
+  text-decoration: none;
+}
+.links .link a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  line-height: 45px;
+}
+/* end main style */
+/* start Home style */
+.h {
+  font-family: "Cairo", sans-serif;
+  background-image: url(./../imgaes/home-2.jpg);
+  background-size: cover;
+}
+.HOME h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+  color: #71a1e9;
+  position: relative;
+}
+.button {
+  background-color: rgb(19 22 123);
+  display: block;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  color: white;
+  margin: 30px auto;
+  text-align: center;
+  position: absolute;
+  top: 460px;
+  left: 44%;
+}
+.button a {
+  text-decoration: none;
+  color: #71a1e9;
+  font-size: 25px;
+}
+/* end Home style */
+/* start submit style */
+.inputs {
+  margin: 20px;
+  padding: 10px;
+}
+.inputs label {
+  display: block;
+}
+.inputs input {
+  width: 450px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+.inputs button {
+  background-color: rgb(168, 109, 20);
+  display: block;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  color: white;
+  margin: 30px auto;
+  text-align: center;
+  left: 44%;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+/* end submit style */
+/* start submit style */
+.container table {
+  margin: 50px auto;
+  width: 70%;
+  height: 50%;
+  background-color: #f1b467;
+  box-shadow: 0 0 20px 5px #ebbf1dc4;
+}
+.container table,
+th,
+td {
+  border: 1px solid gray;
+  border-radius: 10px;
+  font-size: 17px;
+  text-align: center;
+}
+.b-1 {
+  background-color: rgb(168, 109, 20);
+  display: block;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  color: white;
+  margin: 30px auto;
+  text-align: center;
+  position: absolute;
+  top: 460px;
+  left: 44%;
+}
+.b-1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+/* end submit style */
